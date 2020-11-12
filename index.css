@@ -1,0 +1,15 @@
+    select {
+      width: 200px;
+    }
+    .selected--option {
+      border-radius: 16px;
+      background-image: linear-gradient(red, red);
+      color: #fff;
+    }
+
+    select > option:hover {
+      box-shadow: 0 0 10px 100px blue inset;
+      transition: all 0.2s ease-in-out;
+      border-radius: 16px;
+      color: #fff;
+    }
